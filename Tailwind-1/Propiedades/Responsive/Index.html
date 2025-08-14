@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="bg-blue-500 sm:bg-green-500 md:bg-yellow-500 lg:bg-red-500 
+    p-8 text-sm text-white sm:text-base md:text-lg lg:text-2xl">
+        Color segun tamaño de pantalla
+    </div>
+
+    <div>
+        <p class="block sm:hidden">Visible solo en pantallas pequeñas</p>
+        <p class="hidden sm:block md:hidden">Visible solo en pantallas medianas</p>
+        <p class="hidden md:block">Visible solo en pantallas grandes</p>
+    </div>
+</body>
+</html>
